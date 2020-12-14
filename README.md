@@ -1,24 +1,27 @@
-# README
+# Ear Trainer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Back-End Code (Front-End Code available [here](https://github.com/maxjacobzander/ear-trainer-front-end))
+## What's Is Ear Trainer?
 
-Things you may want to cover:
+Ear Trainer is a single-page web application with a JavaScript front-end and a Rails API backend that is way for musicians (particularly music students) to work on training their ears to be able to identify musical intervals by sound.
 
-* Ruby version
+### User Guide
+Upon opening up the page, a user hits the "Play Interval" button, instantiating (essentially) a new game. Users are presented with four options of intervals and has to choose the one that they heard. At any time, a user can click on "Next" to be presented with another interval and four new options.
 
-* System dependencies
+### Future Plans
+Anticipated future updates include:
+- Ability to shuffle the order in which the intervals are played
+- Chordal Sonorities
+- A section for tips on how to learn
+    -(including a RUD layout so that people can submit other tricks that they use for hearing intervals)
 
-* Configuration
+### Installation Guide
+- Clone both front-end and back-end repositories
 
-* Database creation
+- Start training your ears!
 
-* Database initialization
+### Contributor's Guide
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Licencing Statement
+This code is licenced under the MIT Open Source Public License.
