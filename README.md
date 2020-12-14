@@ -25,3 +25,17 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### Licencing Statement
 This code is licenced under the MIT Open Source Public License.
+
+
+A game has many questions
+A question belongs to a game
+There is only one game that has:
+score (integer)
+A question has:
+interval (string to source)
+answer 1
+answer 2
+answer 3
+answer 4
+correct answer
+game_id (always 1)
