@@ -5,12 +5,12 @@ class GamesController < ApplicationController
   def index
     @games = Game.all
 
-    render json: @games
+    render json: @games.as_json(include: {:questions})
   end
 
   # GET /games/1
   def show
-    render json: @game
+    render json: @game.as_json(include: {:questions})
   end
 
   # POST /games
@@ -46,6 +46,6 @@ class GamesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def game_params
-      params.require(:game).permit(:score)
+      params.require(:game).permit(:score, questions_attributes: [:interval, :question_1, :question_2, :question_3, :question_4, :correct_question, :game_id])
     end
 end
