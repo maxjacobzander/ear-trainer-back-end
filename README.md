@@ -17,7 +17,12 @@ Anticipated future updates include:
 
 ### Installation Guide
 - Clone both front-end and back-end repositories
-
+- On the back-end:
+    - Run `bundle install`
+    - Run `rails db: migrate` to migrate the tables
+    - Run `rails db: seed` to seed the necessary data into the database
+    - Run `rails s` to start up the rails server
+- Open the front-end file and follow the front-end instructions in the README file
 - Start training your ears!
 
 ### Contributor's Guide
@@ -25,17 +30,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### Licencing Statement
 This code is licenced under the MIT Open Source Public License.
-
-
-A game has many questions
-A question belongs to a game
-There is only one game that has:
-score (integer)
-A question has:
-interval (string to source)
-answer 1
-answer 2
-answer 3
-answer 4
-correct answer
-game_id (always 1)
